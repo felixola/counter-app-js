@@ -1,10 +1,27 @@
+body{
+    font-family: 'Outfit', sans-serif; 
+    background: #0c0c0e;
+}
 #countLabel{
     display: block;
     text-align: center;
     font-size: 10em;
+    color: #F3F2F3;
 }
 
 #btnContainer {
     text-align: center;
-    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#decreaseBtn, #resetBtn, #increaseBtn{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: #9e579d;
+    color: #F3F2F3;
 }
